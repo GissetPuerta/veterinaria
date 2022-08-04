@@ -19,7 +19,7 @@ h1{
 }
 h2{
     font-family: 'Kanit', Arial, Helvetica, sans-serif;
-    font-size: 1.7em;
+    font-size: 3.7em;
     margin: 0;
     text-align: center;
 }
@@ -28,7 +28,7 @@ h3{
     text-indent: 4.5em;
     font-size: 3.5em;
 }
-#imgcatdog{
+#imgCatdog{
     width: 220px;
     margin: 10px;
     float: right;

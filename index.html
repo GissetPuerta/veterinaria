@@ -11,25 +11,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veterinaria</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilo.css">
 
 </head>
 
 <body>
     <div class="container-fluid" id="contenedorGeneral">
-        <div clas="row" id="titulo">
+        <div class="row" id="Titulo">
             <div class="col-7">
                 <header>
                     <h1>Centro de Veterinaria</h1>
                     <h2>Caninos y Felinos</h2>
-
                 </header>
             </div>
         </div>
     </div>
-
     <div class="col-5">
-        <img src="img/logo.png" alt="catdog">
+        <img src="img/logo.png" alt="Catdog" id="imgCatdog">
     </div>
     <div class="col-12" id="barraMenu">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -54,7 +53,7 @@
             <section>
                 <article>
                     <h4>Cuidados y Educación para su Perro</h4>
-                    <p><img src="img/gatoperro.jfif" alt="catdog" id="imgFoto">Tener un perro implica una gran
+                    <p><img src="img/gatoperro.jfif" alt="Catdog" id="imgFoto">Tener un perro implica una gran
                         responsabilidad. A demás de facilitarle las cosas básicas como son la comida, el veterinario o
                         hacer ejercicio, hay otros consejos que son para que su mascota esté feliz y con una salud ed
                         hierro</p>
@@ -62,12 +61,12 @@
             </section>
         </div>
     </div>
-    <hr class="new5">
-    <div>
+    <hr class="new5" id="Seccion">
+    <div class="row" id="contenido">
         <section>
             <article>
                 <h4> Salir de viaje con tus mascotas</h4>
-                <p> <img src="img/perros.jfif" alt="catdog" id="imgFoto">¡Olvidate de dejar a tu perro o gato en casa!
+                <p> <img src="img/perros.jfif" alt="Catdog" id="imgFoto">¡Olvidate de dejar a tu perro o gato en casa!
                     Ya sea en carro o en un avión, es necesario tener un medio de transporte agradable y seguro para el
                     animalito. Debe de ser un guacal con suficiente ventilación y que le permita darse vuelta y
                     acomodarse en diferentes posiciones. Esto para evitar malestares o mareos</p>
@@ -77,12 +76,12 @@
 
     <div class="row col-5" id="formulario">
         <form id="form" method="post" action="pagina-destino.php">
-            <div class="row" id="formTitulo">
+            <div class="row" id="formTitulo"> 
                 <h1> Solicitar cita medica </h1><br>
             </div>
 
             <label>Mascota</label>
-            <input type="text" id="name" required="" placeholder="Nombre" />
+            <input type="text" id="name" name="nombre" required="" placeholder="Nombre" />
 
             <label for="numtarjeta"> edad </label>
             <input id="numtarjeta" name="numtarjeta" type="number" placeholder="en meses" required="" />
